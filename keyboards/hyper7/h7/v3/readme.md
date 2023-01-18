@@ -3,19 +3,17 @@
 * Keyboard Maintainer: [bit-shifter](https://github.com/bit-shifter)
 * KLE [layout](http://www.keyboard-layout-editor.com/#/gists/daf4d5f4f80466c4d7e5fa04a9b2b0b3)
 
-
 ## Setting the unicode input mode
 
 Pressing the [Function]-[Mode] key combination will cycle through the configured input modes:
 
-1. UC_LNX (default)
-2. UC_MAC
-3. UC_WIN
+1. UNICODE_MODE_LINUX (default)
+2. UNICODE_MODE_MACOS
+3. UNICODE_MODE_WINDOWS
 
 The input mode is not persisted
 
 For additional information, see QMK's unicode (documentation)[https://docs.qmk.fm/#/feature_unicode]:
-
 
 ## Compiling the firmware
 

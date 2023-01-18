@@ -1,7 +1,13 @@
 {
     "keyboard_name": "Hyper7 v3.0",
     "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x6060",
+        "vid": 0xDEAD
+    },
     "maintainer": "bit-shifter",
+    "manufacturer": "yiancar",
     "width": 28,
     "height": 8,
     "layouts": {

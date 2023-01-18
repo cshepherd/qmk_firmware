@@ -44,20 +44,20 @@ void matrix_scan_user(void) {
 
     // slash :: find
     SEQ_ONE_KEY(KC_SLASH) {
-      SEND_STRING(SS_LCTRL(SS_TAP(X_F)));
+      SEND_STRING(SS_LCTL(SS_TAP(X_F)));
     }
 
     // Copy word
     SEQ_TWO_KEYS(KC_W, KC_C) {
-      SEND_STRING(SS_LCTRL(SS_TAP(X_LEFT))SS_LSFT(SS_LCTRL(SS_TAP(X_RIGHT)))SS_LCTRL(SS_TAP(X_C)));
+      SEND_STRING(SS_LCTL(SS_TAP(X_LEFT))SS_LSFT(SS_LCTL(SS_TAP(X_RIGHT)))SS_LCTL(SS_TAP(X_C)));
     }
     // Copy line
     SEQ_TWO_KEYS(KC_L, KC_C) {
-      SEND_STRING(SS_TAP(X_HOME)SS_LSFT(SS_TAP(X_END))SS_LCTRL(SS_TAP(X_C)));
+      SEND_STRING(SS_TAP(X_HOME)SS_LSFT(SS_TAP(X_END))SS_LCTL(SS_TAP(X_C)));
     }
     // Copy all
     SEQ_TWO_KEYS(KC_A, KC_C) {
-      SEND_STRING(SS_LCTRL(SS_TAP(X_A)SS_TAP(X_C)));
+      SEND_STRING(SS_LCTL(SS_TAP(X_A)SS_TAP(X_C)));
     }
   }
 
